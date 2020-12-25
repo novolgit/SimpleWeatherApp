@@ -205,7 +205,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 class WeatherApiProvider {
   Future<SetWeather> fetchWeatherList() async {
-    String weatherApiKey = 'fbfd715323d19d6e43b98ce15bbeea69';
+    String weatherApiKey = '';
     String weatherApiCity = 'Washington';
 
     String url =
